@@ -1,0 +1,268 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "03132477205" [ref=e7] [cursor=pointer]:
+          - /url: tel:03132477205
+        - link "msiddiqui78640@gmail.com" [ref=e10] [cursor=pointer]:
+          - /url: mailto:msiddiqui78640@gmail.com
+      - generic [ref=e14]: Karachi, Pakistan
+    - generic [ref=e18]:
+      - link "Deenar Lift Company — Home" [ref=e19] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e27]:
+          - generic [ref=e28]: Deenar Lift
+          - generic [ref=e29]: Company
+      - navigation "Primary" [ref=e30]:
+        - link "Home" [ref=e31] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e32] [cursor=pointer]:
+          - /url: /about
+        - link "Products" [ref=e33] [cursor=pointer]:
+          - /url: /products
+        - link "Pricing" [ref=e34] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=e35] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e36] [cursor=pointer]:
+          - /url: /contact
+        - link "Get a Quote" [ref=e37] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e40]:
+    - generic [ref=e43]:
+      - navigation [ref=e44]:
+        - link "Home" [ref=e45] [cursor=pointer]:
+          - /url: /
+        - generic [aria-hidden] [ref=e46]: /
+        - generic [ref=e47]: Products
+      - paragraph [ref=e50]: Our Products
+      - heading "Elevators for every building" [level=1] [ref=e51]
+      - paragraph [ref=e52]: Four product families, each one custom-engineered and manufactured for your site. Browse the range below or ask us for a tailored recommendation.
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e59]:
+          - img "Passenger Lifts" [ref=e61]
+          - generic [ref=e63]: "01"
+        - generic [ref=e64]:
+          - paragraph [ref=e67]: Smooth, fast and quiet movement for every building
+          - heading "Passenger Lifts" [level=2] [ref=e68]
+          - paragraph [ref=e69]: From 6 to 16 persons, our geared and gearless passenger lifts use VVVF drives and advanced controllers for a quiet, accurate ride in residential towers, offices and commercial buildings.
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - term [ref=e72]: Capacity
+              - definition [ref=e73]: 320 - 1,000 kg
+            - generic [ref=e74]:
+              - term [ref=e75]: Speed
+              - definition [ref=e76]: 0.5 - 2.0 m/s
+            - generic [ref=e77]:
+              - term [ref=e78]: Travel
+              - definition [ref=e79]: Up to 30 stops
+            - generic [ref=e80]:
+              - term [ref=e81]: Drive
+              - definition [ref=e82]: Geared / Gearless
+          - list [ref=e83]:
+            - listitem [ref=e84]: VVVF gearless traction drives
+            - listitem [ref=e87]: Micro-processor based controllers
+            - listitem [ref=e90]: LED lighting with emergency backup
+            - listitem [ref=e93]: Automatic sliding doors
+            - listitem [ref=e96]: Destination dispatch option
+            - listitem [ref=e99]: "Capacity: 6 - 16 persons"
+          - generic [ref=e102]:
+            - link "Estimate Price" [ref=e103] [cursor=pointer]:
+              - /url: /pricing
+            - link "Enquire About This Product" [ref=e104] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e105]:
+        - generic [ref=e109]:
+          - img "Home / Villa Lifts" [ref=e111]
+          - generic [ref=e113]: "02"
+        - generic [ref=e114]:
+          - paragraph [ref=e117]: Elegant mobility for your family and guests
+          - heading "Home / Villa Lifts" [level=2] [ref=e118]
+          - paragraph [ref=e119]: Compact hydraulic home lifts designed to fit existing structures with minimal shaft work. Quiet, safe and stylish — ideal for villas and multi-storey residences across Karachi.
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - term [ref=e122]: Capacity
+              - definition [ref=e123]: 160 - 480 kg
+            - generic [ref=e124]:
+              - term [ref=e125]: Stops
+              - definition [ref=e126]: 2 - 5 stops
+            - generic [ref=e127]:
+              - term [ref=e128]: Drive
+              - definition [ref=e129]: Hydraulic
+            - generic [ref=e130]:
+              - term [ref=e131]: Power
+              - definition [ref=e132]: Single phase option
+          - list [ref=e133]:
+            - listitem [ref=e134]: No machine room required (MRL)
+            - listitem [ref=e137]: Compact pit & headroom requirements
+            - listitem [ref=e140]: Child-safe interlocks
+            - listitem [ref=e143]: Battery-assisted emergency lowering
+            - listitem [ref=e146]: Custom cabin interiors
+            - listitem [ref=e149]: "Capacity: 2 - 6 persons"
+          - generic [ref=e152]:
+            - link "Estimate Price" [ref=e153] [cursor=pointer]:
+              - /url: /pricing
+            - link "Enquire About This Product" [ref=e154] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e155]:
+        - generic [ref=e159]:
+          - img "Freight / Goods Lifts" [ref=e161]
+          - generic [ref=e163]: "03"
+        - generic [ref=e164]:
+          - paragraph [ref=e167]: Heavy-duty lifting for industry and commerce
+          - heading "Freight / Goods Lifts" [level=2] [ref=e168]
+          - paragraph [ref=e169]: Built to move goods, pallets and vehicles with capacities up to 3,000 kg. Robust double-leaf doors, heavy-duty guides and hydraulic or traction drive systems.
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - term [ref=e172]: Capacity
+              - definition [ref=e173]: 1,000 - 3,000 kg
+            - generic [ref=e174]:
+              - term [ref=e175]: Drive
+              - definition [ref=e176]: Hydraulic / Traction
+            - generic [ref=e177]:
+              - term [ref=e178]: Doors
+              - definition [ref=e179]: Manual / Automatic
+            - generic [ref=e180]:
+              - term [ref=e181]: Operation
+              - definition [ref=e182]: Single or two speed
+          - list [ref=e183]:
+            - listitem [ref=e184]: Load capacities up to 3,000 kg
+            - listitem [ref=e187]: Heavy-duty platform & gates
+            - listitem [ref=e190]: Manual or automatic doors
+            - listitem [ref=e193]: Two-speed floor levelling
+            - listitem [ref=e196]: Waterproof / weatherproof options
+            - listitem [ref=e199]: Custom platform sizes
+          - generic [ref=e202]:
+            - link "Estimate Price" [ref=e203] [cursor=pointer]:
+              - /url: /pricing
+            - link "Enquire About This Product" [ref=e204] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e205]:
+        - generic [ref=e209]:
+          - img "Hospital Lifts" [ref=e211]
+          - generic [ref=e213]: "04"
+        - generic [ref=e214]:
+          - paragraph [ref=e217]: Precision, comfort and care for medical facilities
+          - heading "Hospital Lifts" [level=2] [ref=e218]
+          - paragraph [ref=e219]: Wide-bed lifts with stretcher cabins, vibration-free travel and precise levelling so trolleys and beds move without a hitch. Designed for hospitals, clinics and laboratories.
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - term [ref=e222]: Capacity
+              - definition [ref=e223]: 480 - 800 kg
+            - generic [ref=e224]:
+              - term [ref=e225]: Speed
+              - definition [ref=e226]: 0.63 - 1.0 m/s
+            - generic [ref=e227]:
+              - term [ref=e228]: Cabin depth
+              - definition [ref=e229]: 2,100 mm+
+            - generic [ref=e230]:
+              - term [ref=e231]: Safety
+              - definition [ref=e232]: EN / GB certified
+          - list [ref=e233]:
+            - listitem [ref=e234]: Stretcher-friendly wide cabins
+            - listitem [ref=e237]: Anti-vibration levelling
+            - listitem [ref=e240]: Emergency alarm & intercom
+            - listitem [ref=e243]: Standby power readiness
+            - listitem [ref=e246]: Fire-rated landing doors
+            - listitem [ref=e249]: "Capacity: 6 - 10 persons"
+          - generic [ref=e252]:
+            - link "Estimate Price" [ref=e253] [cursor=pointer]:
+              - /url: /pricing
+            - link "Enquire About This Product" [ref=e254] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=e256]:
+      - generic [ref=e257]:
+        - generic [ref=e260]:
+          - paragraph [ref=e263]: After-Sales
+          - heading "Your lift is only as good as its service" [level=2] [ref=e264]
+          - paragraph [ref=e265]: Every Deenar lift is backed by our own technicians, genuine spare parts and nationwide service.
+        - generic [ref=e267]:
+          - generic [ref=e269]:
+            - generic [ref=e270]: "01"
+            - heading "Supply & Installation" [level=3] [ref=e271]
+            - paragraph [ref=e272]: End-to-end turnkey installation including shaft survey, civil works guidance, electrical integration and commissioning by our own certified engineers.
+          - generic [ref=e274]:
+            - generic [ref=e275]: "02"
+            - heading "Annual Maintenance Contracts" [level=3] [ref=e276]
+            - paragraph [ref=e277]: Preventive and corrective maintenance plans with scheduled inspections, priority breakdown response and genuine spare parts for years of trouble-free service.
+          - generic [ref=e279]:
+            - generic [ref=e280]: "03"
+            - heading "Modernization & Refurbishment" [level=3] [ref=e281]
+            - paragraph [ref=e282]: Upgrade ageing lifts with new VVVF drives, controllers, doors and cabins to boost performance, safety and energy efficiency at a fraction of replacement cost.
+          - generic [ref=e284]:
+            - generic [ref=e285]: "04"
+            - heading "Repair & Breakdown Service" [level=3] [ref=e286]
+            - paragraph [ref=e287]: Fast emergency call-out for Karachi and all of Sindh. Our technicians carry common spares on board to get your lift moving again quickly.
+      - link "Request a Service Quote" [ref=e289] [cursor=pointer]:
+        - /url: /contact
+  - contentinfo [ref=e290]:
+    - generic [ref=e291]:
+      - generic [ref=e292]:
+        - generic [ref=e300]:
+          - generic [ref=e301]: Deenar Lift
+          - generic [ref=e302]: Company
+        - paragraph [ref=e303]: Deenar Lift Company is a Karachi-based manufacturer of passenger lifts, home lifts, freight lifts and hospital lifts. We design, manufacture, install and maintain elevators built for Pakistan's buildings.
+        - generic [ref=e304]:
+          - link "Facebook" [ref=e305] [cursor=pointer]:
+            - /url: https://facebook.com/deenarlifts
+          - link "Instagram" [ref=e308] [cursor=pointer]:
+            - /url: https://instagram.com/deenarlifts
+          - link "LinkedIn" [ref=e311] [cursor=pointer]:
+            - /url: https://linkedin.com/company/deenarlifts
+      - generic [ref=e314]:
+        - heading "Explore" [level=3] [ref=e315]
+        - list [ref=e316]:
+          - listitem [ref=e317]:
+            - link "Home" [ref=e318] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e319]:
+            - link "About" [ref=e320] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e321]:
+            - link "Products" [ref=e322] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e323]:
+            - link "Pricing" [ref=e324] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e325]:
+            - link "Blog" [ref=e326] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e327]:
+            - link "Contact" [ref=e328] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e329]:
+        - heading "Products" [level=3] [ref=e330]
+        - list [ref=e331]:
+          - listitem [ref=e332]:
+            - link "Passenger Lifts" [ref=e333] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e334]:
+            - link "Home / Villa Lifts" [ref=e335] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e336]:
+            - link "Freight / Goods Lifts" [ref=e337] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e338]:
+            - link "Hospital Lifts" [ref=e339] [cursor=pointer]:
+              - /url: /products
+      - generic [ref=e340]:
+        - heading "Contact" [level=3] [ref=e341]
+        - list [ref=e342]:
+          - listitem [ref=e343]:
+            - link "03132477205" [ref=e344] [cursor=pointer]:
+              - /url: tel:03132477205
+          - listitem [ref=e345]:
+            - link "msiddiqui78640@gmail.com" [ref=e346] [cursor=pointer]:
+              - /url: mailto:msiddiqui78640@gmail.com
+          - listitem [ref=e347]: Karachi, Pakistan
+          - listitem [ref=e348]: "Mon - Sat: 9:00 AM - 7:00 PM"
+        - link "Chat on WhatsApp" [ref=e349] [cursor=pointer]:
+          - /url: https://wa.me/923132477205?text=Assalam-o-Alaikum!%20I%20would%20like%20to%20enquire%20about%20lifts%20from%20Deenar%20Lift%20Company.
+    - generic [ref=e353]:
+      - paragraph [ref=e354]: © 2026 Deenar Lift Company. All rights reserved.
+      - paragraph [ref=e355]: Designed, manufactured & serviced in Karachi, Pakistan.
+  - link "Chat with us on WhatsApp" [ref=e356] [cursor=pointer]:
+    - /url: https://wa.me/923132477205?text=Assalam-o-Alaikum!%20I%20would%20like%20to%20enquire%20about%20lifts%20from%20Deenar%20Lift%20Company.

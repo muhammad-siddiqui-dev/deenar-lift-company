@@ -105,52 +105,6 @@ export const products: Product[] = [
     accent: "from-rose-500 to-red-700",
     image: u("photo-1586773860418-d37222d8fce3"),
   },
-  {
-    id: "panoramic",
-    name: "Panoramic Lifts",
-    tagline: "Glass lifts that add drama to your space",
-    description:
-      "Fully glazed lifts for atriums, showrooms, hotels and luxury retail. Structural glass cabins with 360-degree views and a smooth, showpiece ride.",
-    features: [
-      "Tempered structural glass",
-      "360-degree panoramic view",
-      "LED ambient cabin lighting",
-      "MRL / outdoor installation",
-      "Custom circular or curved options",
-      "Capacity: 6 - 13 persons",
-    ],
-    specs: [
-      { label: "Capacity", value: "480 - 1,040 kg" },
-      { label: "Speed", value: "0.5 - 1.0 m/s" },
-      { label: "Cabin", value: "Structural glass" },
-      { label: "Drive", value: "Hydraulic / Traction" },
-    ],
-    accent: "from-violet-500 to-purple-700",
-    image: u("photo-1477959858617-67f85cf4f1df"),
-  },
-  {
-    id: "escalators",
-    name: "Escalators & Walkways",
-    tagline: "High-capacity people movement for busy spaces",
-    description:
-      "Commercial escalators and moving walkways for malls, airports, metro stations and offices. Heavy-duty steel steps, high torque motors and energy-saving features.",
-    features: [
-      "Continuous heavy-duty operation",
-      "Energy-saving VVVF drives",
-      "Sensors & safety switches",
-      "Anti-slip patterned steps",
-      "Indoor & semi-outdoor models",
-      "Heights up to 12 m+",
-    ],
-    specs: [
-      { label: "Angle", value: "30° / 35°" },
-      { label: "Speed", value: "0.5 m/s" },
-      { label: "Capacity", value: "Up to 9,000 pax/hr" },
-      { label: "Width", value: "600 / 800 / 1000 mm" },
-    ],
-    accent: "from-cyan-500 to-sky-700",
-    image: u("photo-1497366216548-37526070297c"),
-  },
 ];
 
 export const services = [

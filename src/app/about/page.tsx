@@ -91,8 +91,8 @@ export default function AboutPage() {
               <Reveal delay={140}>
                 <p>
                   Today we manufacture a complete range of lifts in our Karachi
-                  facility: passenger lifts, home lifts, freight lifts, hospital lifts,
-                  panoramic lifts and escalators. Every unit is designed for
+                  facility: passenger lifts, home lifts, freight lifts and hospital
+                  lifts. Every unit is designed for
                   Pakistan&apos;s reality — its summer heat, its power fluctuations and
                   its dense residential towers.
                 </p>

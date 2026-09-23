@@ -103,8 +103,8 @@ export default function Home() {
             <Reveal delay={160}>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-400">
                 {site.name} designs, manufactures, installs and maintains passenger
-                lifts, home lifts, freight lifts, hospital lifts and escalators —
-                built for reliability and priced in PKR.
+                lifts, home lifts, freight lifts and hospital lifts — built for
+                reliability and priced in PKR.
               </p>
             </Reveal>
             <Reveal delay={240}>
@@ -128,7 +128,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={320}>
               <div className="mt-10 flex flex-wrap items-center gap-x-2 gap-y-2 text-xs text-zinc-400">
-                {["Passenger", "Home", "Freight", "Hospital", "Panoramic", "Escalators"].map(
+                {["Passenger", "Home", "Freight", "Hospital"].map(
                   (item, i, arr) => (
                     <span key={item} className="flex items-center gap-2">
                       <span className="text-zinc-200">{item}</span>
@@ -221,7 +221,7 @@ export default function Home() {
             <SectionHeading
               eyebrow="Our Products"
               title="A lift for every building"
-              description="Six product families, each one custom-engineered and manufactured for your site."
+              description="Four product families, each one custom-engineered and manufactured for your site."
             />
           </Reveal>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

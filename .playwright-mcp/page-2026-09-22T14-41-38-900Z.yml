@@ -1,0 +1,235 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e18]:
+      - link "Deenar Lift Company — Home" [ref=e19] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e27]:
+          - generic [ref=e28]: Deenar Lift
+          - generic [ref=e29]: Company
+      - navigation "Primary" [ref=e30]:
+        - link "Home" [ref=e31] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e32] [cursor=pointer]:
+          - /url: /about
+        - link "Products" [ref=e33] [cursor=pointer]:
+          - /url: /products
+        - link "Pricing" [ref=e34] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=e35] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e36] [cursor=pointer]:
+          - /url: /contact
+        - link "Get a Quote" [ref=e37] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e40]:
+    - generic [ref=e43]:
+      - navigation [ref=e44]:
+        - link "Home" [ref=e45] [cursor=pointer]:
+          - /url: /
+        - generic [aria-hidden] [ref=e46]: /
+        - generic [ref=e47]: Pricing
+      - paragraph [ref=e50]: Pricing Estimator
+      - heading "Know your lift price in PKR — before you call" [level=1] [ref=e51]
+      - paragraph [ref=e52]: Answer a few questions and get an instant budget estimate where verified 2026 pricing exists, and a formal quotation for anything else.
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: Step 1 · Lift type
+          - generic [ref=e59]:
+            - button "Passenger Lift Online estimate (630 kg)" [ref=e60]:
+              - generic [ref=e61]: Passenger Lift
+              - generic [ref=e62]: Online estimate (630 kg)
+            - button "Cargo / Freight Lift Reference range + quotation" [ref=e63]:
+              - generic [ref=e64]: Cargo / Freight Lift
+              - generic [ref=e65]: Reference range + quotation
+            - button "Home / Villa Lift Formal quotation" [ref=e66]:
+              - generic [ref=e67]: Home / Villa Lift
+              - generic [ref=e68]: Formal quotation
+            - button "Hospital Lift Formal quotation" [ref=e69]:
+              - generic [ref=e70]: Hospital Lift
+              - generic [ref=e71]: Formal quotation
+            - button "Imported Complete Lift Formal quotation" [active] [ref=e72]:
+              - generic [ref=e73]: Imported Complete Lift
+              - generic [ref=e74]: Formal quotation
+        - generic [ref=e117]:
+          - paragraph [ref=e118]: Step 2 · Options
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - text: Cabin source
+              - combobox [ref=e121]:
+                - option "Local SS"
+                - option "Imported cabin" [selected]
+            - generic [ref=e122]:
+              - text: Door class
+              - combobox [ref=e123]:
+                - option "Automatic SS" [selected]
+                - option "Swing / MS"
+                - option "Book-type"
+          - paragraph [ref=e124]: Options below influence the quotation and are confirmed with it.
+          - generic [ref=e125]:
+            - button "ARD (Automatic Rescue Device)" [ref=e126]
+            - button "Generator / power backup" [ref=e127]
+            - button "VVVF door drive" [ref=e128]
+          - generic [ref=e129]:
+            - paragraph [ref=e130]: "Informational — choose any, pricing is confirmed in the quotation:"
+            - generic [ref=e131]:
+              - generic [ref=e132]: TFT / LCD display
+              - generic [ref=e133]: LED / false ceiling
+              - generic [ref=e134]: Stone / laminate interiors
+              - generic [ref=e135]: Glass thickness
+              - generic [ref=e136]: Speed
+              - generic [ref=e137]: Other specialised requirements
+        - generic [ref=e138]:
+          - paragraph [ref=e139]: Tell us more for your quotation
+          - generic [ref=e140]:
+            - textbox "e.g., complete imported passenger lift" [ref=e480]
+            - textbox "e.g., 1600 x 1400 mm cabin" [ref=e481]
+            - textbox "e.g., 2500 kg" [ref=e482]
+            - textbox "e.g., China / Italy / Germany" [ref=e483]
+            - textbox "Any additional requirements or site details" [ref=e141]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: Formal quotation required
+          - paragraph [ref=e146]: Imported complete lifts are quoted according to requirements, sizes, weight and source country.
+        - generic [ref=e148]:
+          - generic [ref=e149]: "Imported Complete Lift · Stops: 8 · Cabin source: Imported cabin · Door class: Automatic SS"
+          - paragraph [ref=e467]: Share your requirements below and we will send a formal quotation after a free site survey.
+          - generic [ref=e468]:
+            - link "Request Formal Quotation" [ref=e476] [cursor=pointer]:
+              - /url: https://wa.me/923132477205?text=Assalam-o-Alaikum!%20I%20used%20the%20Deenar%20Lift%20pricing%20calculator.%0AImported%20Complete%20Lift%0AStops%3A%208%0ACabin%20source%3A%20Imported%20cabin%0ADoor%20class%3A%20Automatic%20SS%0A%0ARequires%20a%20formal%20quotation.%0AImported%20complete%20lifts%20are%20quoted%20according%20to%20requirements%2C%20sizes%2C%20weight%20and%20source%20country.%0A%0APlease%20share%20a%20formal%20quotation.
+            - link "Book a Free Site Survey" [ref=e472] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=e184]:
+      - generic [ref=e186]:
+        - paragraph [ref=e189]: Reference Prices
+        - heading "Verified 2026 price bands" [level=2] [ref=e190]
+        - paragraph [ref=e191]: Realistic 2026 price bands for typical projects, from the same verified rules as the calculator above.
+      - table [ref=e194]:
+        - rowgroup [ref=e195]:
+          - row [ref=e196]:
+            - columnheader "Configuration" [ref=e197]
+            - columnheader "Estimated Range (PKR)" [ref=e198]
+        - rowgroup [ref=e199]:
+          - row [ref=e200]:
+            - cell "Passenger Steel Lift — 630 kg, 8 stops" [ref=e201]
+            - cell "Rs 28 lakh — Rs 45 lakh" [ref=e202]
+          - row [ref=e203]:
+            - cell "Passenger Glass Lift — 630 kg, 8 stops" [ref=e204]
+            - cell "Rs 28 lakh — Rs 45 lakh" [ref=e205]
+          - row [ref=e206]:
+            - cell "Cargo / Freight Lift — business reference" [ref=e207]
+            - cell "Rs 40 lakh — Rs 1.5 crore" [ref=e208]
+      - paragraph [ref=e209]: Indicative figures for budgeting only. Final pricing is confirmed after a free site survey; cargo figures are a broad business reference band, not a configured estimate.
+    - generic [ref=e211]:
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - paragraph [ref=e217]: Transparent Quotations
+          - heading "What every Deenar quotation includes" [level=2] [ref=e218]
+        - list [ref=e219]:
+          - generic [ref=e220]: Complete lift supply and manufacturing
+          - generic [ref=e226]: On-site installation & commissioning
+          - generic [ref=e232]: Load testing and safety certification
+          - generic [ref=e238]: Civil & electrical coordination guidance
+          - generic [ref=e244]: Warranty and after-sales support
+      - generic [ref=e251]:
+        - heading "Not sure where to start?" [level=3] [ref=e252]
+        - paragraph [ref=e253]: Share your building's floor count, shaft dimensions and expected daily traffic. Our engineers will recommend the right lift type, size and budget — free of charge.
+        - generic [ref=e254]:
+          - link "Request Free Survey" [ref=e255] [cursor=pointer]:
+            - /url: /contact
+          - link "Read the Cost Guide" [ref=e256] [cursor=pointer]:
+            - /url: /blog/elevator-cost-pakistan-2026
+    - generic [ref=e258]:
+      - generic [ref=e260]:
+        - paragraph [ref=e263]: FAQ
+        - heading "Pricing questions, answered" [level=2] [ref=e264]
+      - generic [ref=e265]:
+        - group [ref=e267]:
+          - generic [ref=e268] [cursor=pointer]
+        - group [ref=e273]:
+          - generic [ref=e274] [cursor=pointer]
+        - group [ref=e279]:
+          - generic [ref=e280] [cursor=pointer]
+        - group [ref=e285]:
+          - generic [ref=e286] [cursor=pointer]
+        - group [ref=e291]:
+          - generic [ref=e292] [cursor=pointer]
+        - group [ref=e297]:
+          - generic [ref=e298] [cursor=pointer]
+  - contentinfo [ref=e302]:
+    - generic [ref=e303]:
+      - generic [ref=e304]:
+        - generic [ref=e312]:
+          - generic [ref=e313]: Deenar Lift
+          - generic [ref=e314]: Company
+        - paragraph [ref=e315]: Deenar Lift Company is a Karachi-based manufacturer of passenger lifts, home lifts, freight lifts, hospital lifts and escalators. We design, manufacture, install and maintain elevators built for Pakistan's buildings.
+        - generic [ref=e316]:
+          - link "Facebook" [ref=e317] [cursor=pointer]:
+            - /url: https://facebook.com/deenarlifts
+          - link "Instagram" [ref=e320] [cursor=pointer]:
+            - /url: https://instagram.com/deenarlifts
+          - link "LinkedIn" [ref=e323] [cursor=pointer]:
+            - /url: https://linkedin.com/company/deenarlifts
+      - generic [ref=e326]:
+        - heading "Explore" [level=3] [ref=e327]
+        - list [ref=e328]:
+          - listitem [ref=e329]:
+            - link "Home" [ref=e330] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e331]:
+            - link "About" [ref=e332] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e333]:
+            - link "Products" [ref=e334] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e335]:
+            - link "Pricing" [ref=e336] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e337]:
+            - link "Blog" [ref=e338] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e339]:
+            - link "Contact" [ref=e340] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e341]:
+        - heading "Products" [level=3] [ref=e342]
+        - list [ref=e343]:
+          - listitem [ref=e344]:
+            - link "Passenger Lifts" [ref=e345] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e346]:
+            - link "Home / Villa Lifts" [ref=e347] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e348]:
+            - link "Freight / Goods Lifts" [ref=e349] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e350]:
+            - link "Hospital Lifts" [ref=e351] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e352]:
+            - link "Panoramic Lifts" [ref=e353] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e354]:
+            - link "Escalators & Walkways" [ref=e355] [cursor=pointer]:
+              - /url: /products
+      - generic [ref=e356]:
+        - heading "Contact" [level=3] [ref=e357]
+        - list [ref=e358]:
+          - listitem [ref=e359]:
+            - link "03132477205" [ref=e360] [cursor=pointer]:
+              - /url: tel:03132477205
+          - listitem [ref=e361]:
+            - link "msiddiqui78640@gmail.com" [ref=e362] [cursor=pointer]:
+              - /url: mailto:msiddiqui78640@gmail.com
+          - listitem [ref=e363]: Karachi, Pakistan
+          - listitem [ref=e364]: "Mon - Sat: 9:00 AM - 7:00 PM"
+        - link "Chat on WhatsApp" [ref=e365] [cursor=pointer]:
+          - /url: https://wa.me/923132477205?text=Assalam-o-Alaikum!%20I%20would%20like%20to%20enquire%20about%20lifts%20from%20Deenar%20Lift%20Company.
+    - generic [ref=e369]:
+      - paragraph [ref=e370]: © 2026 Deenar Lift Company. All rights reserved.
+      - paragraph [ref=e371]: Designed, manufactured & serviced in Karachi, Pakistan.
+  - link "Chat with us on WhatsApp" [ref=e372] [cursor=pointer]:
+    - /url: https://wa.me/923132477205?text=Assalam-o-Alaikum!%20I%20would%20like%20to%20enquire%20about%20lifts%20from%20Deenar%20Lift%20Company.
+  - alert [ref=e375]

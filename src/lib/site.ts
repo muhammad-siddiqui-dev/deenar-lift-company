@@ -3,7 +3,7 @@ export const site = {
   shortName: "Deenar",
   tagline: "Engineering Vertical Mobility for Pakistan",
   description:
-    "Deenar Lift Company is a Karachi-based manufacturer of passenger lifts, home lifts, freight lifts, hospital lifts and escalators. We design, manufacture, install and maintain elevators built for Pakistan's buildings.",
+    "Deenar Lift Company is a Karachi-based manufacturer of passenger lifts, home lifts, freight lifts and hospital lifts. We design, manufacture, install and maintain elevators built for Pakistan's buildings.",
   phone: "03132477205",
   phoneHref: "tel:03132477205",
   whatsappNumber: "923132477205",

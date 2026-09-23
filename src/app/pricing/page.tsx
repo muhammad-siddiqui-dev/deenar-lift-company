@@ -3,28 +3,30 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 import PricingCalculator from "@/components/PricingCalculator";
-import {
-  calculateEstimate,
-  formatPKRCompact,
-  type ElevatorTypeId,
-  type BuildingTypeId,
-  type FinishId,
-} from "@/lib/pricing";
+import { formatPKRCompact, pricingRules } from "@/lib/pricing";
 
-const samples: {
-  name: string;
-  typeId: ElevatorTypeId;
-  buildingId: BuildingTypeId;
-  capacity: number;
-  stops: number;
-  finishId: FinishId;
-}[] = [
-  { name: "Home Lift — Villa", typeId: "home", buildingId: "residential", capacity: 4, stops: 3, finishId: "standard" },
-  { name: "Passenger — Apartment Tower", typeId: "passenger", buildingId: "apartment", capacity: 8, stops: 10, finishId: "premium" },
-  { name: "Passenger — Office Building", typeId: "passenger", buildingId: "commercial", capacity: 13, stops: 20, finishId: "premium" },
-  { name: "Hospital Lift — Hospital", typeId: "hospital", buildingId: "hospital", capacity: 8, stops: 8, finishId: "standard" },
-  { name: "Freight Lift — Warehouse", typeId: "freight", buildingId: "industrial", capacity: 2000, stops: 3, finishId: "standard" },
-  { name: "Panoramic Lift — Hotel", typeId: "panoramic", buildingId: "hotel", capacity: 8, stops: 6, finishId: "luxury" },
+const samples = [
+  {
+    name: "Passenger Steel Lift — 630 kg, 8 stops",
+    range: [
+      pricingRules.R1.valueLow ?? 0,
+      pricingRules.R1.valueHigh ?? 0,
+    ],
+  },
+  {
+    name: "Passenger Glass Lift — 630 kg, 8 stops",
+    range: [
+      pricingRules.R2.valueLow ?? 0,
+      pricingRules.R2.valueHigh ?? 0,
+    ],
+  },
+  {
+    name: "Cargo / Freight Lift — business reference",
+    range: [
+      pricingRules.R4.valueLow ?? 0,
+      pricingRules.R4.valueHigh ?? 0,
+    ],
+  },
 ];
 
 const included = [
@@ -38,19 +40,23 @@ const included = [
 const faqs = [
   {
     q: "Why does the price vary between the low and high estimate?",
-    a: "The range accounts for site-specific factors like shaft dimensions, civil works, power supply conditions, door configuration and the brand of imported components chosen. A site survey narrows this down to an exact figure.",
+    a: "The range reflects a verified 2026 band for the reference configuration. The exact figure is narrowed down by your shaft dimensions, site conditions, door configuration and choice of components — confirmed after a free site survey.",
   },
   {
     q: "Are installation and civil works included?",
-    a: "Our estimates include the lift, installation and commissioning. Civil works on the shaft and electrical supply upgrading are quoted separately, based on your building's existing structure.",
+    a: "Our estimates include the lift, installation and commissioning. Civil works, electrical works, transport, taxes and negotiated discounts are confirmed separately at survey.",
   },
   {
     q: "Can I pay in instalments?",
-    a: "Yes. We offer flexible payment plans typically structured as 30% advance, 40% on manufacturing milestones and 30% before installation completes. Terms are agreed in writing.",
+    a: "Yes. Payment is typically structured as 40% advance, 20% on manufacturing milestones, 20% before installation and 20% on completion. Terms are agreed in writing.",
   },
   {
-    q: "How long does installation take?",
-    a: "A home lift is usually installed in 1-3 weeks after civil preparation. Passenger and freight lifts take 3-8 weeks depending on stops and building conditions.",
+    q: "How long does delivery and installation take?",
+    a: "Approximately 2-3 months from order, depending on manufacturing schedule and site readiness.",
+  },
+  {
+    q: "Why are some lifts quoted only, with no online estimate?",
+    a: "Verified 2026 price bands are available for our 630 kg steel and glass passenger reference configuration. Home, hospital, imported, 1000 kg and cargo lifts depend on individual requirements, sizes and site conditions, so they are quoted individually after a free survey.",
   },
   {
     q: "Do you service lifts outside Karachi?",
@@ -65,7 +71,7 @@ export default function PricingPage() {
         crumb="Pricing"
         eyebrow="Pricing Estimator"
         title="Know your lift price in PKR — before you call"
-        description="Answer a few questions and get an instant budget estimate for your building. Every figure includes supply, installation and commissioning."
+        description="Answer a few questions and get an instant budget estimate where verified 2026 pricing exists, and a formal quotation for anything else."
       />
 
       <section className="py-20 sm:py-28">
@@ -74,57 +80,41 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Sample estimates */}
+      {/* Reference prices */}
       <section className="border-y border-white/10 bg-[#0b0b0e] py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-6">
           <Reveal>
             <SectionHeading
               eyebrow="Reference Prices"
-              title="Sample estimates for common configurations"
-              description="Realistic 2026 price bands for typical projects, computed with the same model as the calculator above."
+              title="Verified 2026 price bands"
+              description="Realistic 2026 price bands for typical projects, from the same verified rules as the calculator above."
             />
           </Reveal>
           <Reveal delay={120}>
             <div className="mt-14 overflow-x-auto border border-white/10">
-              <table className="w-full min-w-[720px] text-left text-sm">
+              <table className="w-full min-w-[580px] text-left text-sm">
                 <thead>
                   <tr className="border-b border-white/10 text-[11px] uppercase tracking-wider text-zinc-400">
                     <th className="px-6 py-4 font-semibold">Configuration</th>
-                    <th className="px-6 py-4 font-semibold">Capacity</th>
-                    <th className="px-6 py-4 font-semibold">Stops</th>
-                    <th className="px-6 py-4 font-semibold">Finish</th>
-                    <th className="px-6 py-4 text-right font-semibold">
-                      Estimated Range (PKR)
-                    </th>
+                    <th className="px-6 py-4 text-right font-semibold">Estimated Range (PKR)</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-white/5">
-                  {samples.map((sample, i) => {
-                    const result = calculateEstimate(sample);
-                    return (
-                      <tr key={sample.name} className={i % 2 ? "bg-white/[0.02]" : ""}>
-                        <td className="px-6 py-4 font-medium text-zinc-100">
-                          {sample.name}
-                        </td>
-                        <td className="px-6 py-4 text-zinc-400">{sample.capacity}</td>
-                        <td className="px-6 py-4 text-zinc-400">{sample.stops}</td>
-                        <td className="px-6 py-4 capitalize text-zinc-400">
-                          {sample.finishId}
-                        </td>
-                        <td className="px-6 py-4 text-right font-mono font-semibold text-zinc-100">
-                          {formatPKRCompact(result.low)} — {formatPKRCompact(result.high)}
-                        </td>
-                      </tr>
-                    );
-                  })}
+                  {samples.map((sample, i) => (
+                    <tr key={sample.name} className={i % 2 ? "bg-white/[0.02]" : ""}>
+                      <td className="px-6 py-4 font-medium text-zinc-100">{sample.name}</td>
+                      <td className="px-6 py-4 text-right font-mono font-semibold text-zinc-100">
+                        {formatPKRCompact(sample.range[0])} — {formatPKRCompact(sample.range[1])}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
           </Reveal>
           <p className="mt-4 text-xs text-zinc-400">
-            Indicative figures for budgeting only. Final pricing is confirmed after a
-            free site survey and is subject to PKR exchange-rate movements on imported
-            components.
+            Indicative figures for budgeting only. Final pricing is confirmed after a free site survey; cargo figures
+            are a broad business reference band, not a configured estimate.
           </p>
         </div>
       </section>

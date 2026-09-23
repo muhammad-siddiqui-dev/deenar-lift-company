@@ -29,7 +29,6 @@ export const metadata: Metadata = {
     "home lifts",
     "freight lifts",
     "hospital lifts",
-    "escalators",
     "Deenar Lift Company",
   ],
   openGraph: {

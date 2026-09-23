@@ -11,8 +11,8 @@ export default function ProductsPage() {
       <PageHero
         crumb="Products"
         eyebrow="Our Products"
-        title="Elevators & escalators for every building"
-        description="Six product families, each one custom-engineered and manufactured for your site. Browse the range below or ask us for a tailored recommendation."
+        title="Elevators for every building"
+        description="Four product families, each one custom-engineered and manufactured for your site. Browse the range below or ask us for a tailored recommendation."
       />
 
       <section className="py-20 sm:py-28">

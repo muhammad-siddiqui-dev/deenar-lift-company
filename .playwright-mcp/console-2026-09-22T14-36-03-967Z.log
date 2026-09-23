@@ -1,0 +1,8 @@
+[  770559ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3101/products?_rsc=bME4Q4px3YJ1rAzL:0
+[  819799ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3101/?_rsc=bME4Q4px3YJ1rAzL:0
+[  822509ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3101/?_rsc=AMXGM-9vDHztqARa:0
+[  822510ms] [ERROR] Failed to fetch RSC payload for http://localhost:3101/. Falling back to browser navigation. TypeError: Failed to fetch
+    at n (http://localhost:3101/_next/static/chunks/0td_q_jvg2olo.js:2:34601)
+    at N (http://localhost:3101/_next/static/chunks/0td_q_jvg2olo.js:1:22192)
+    at async m (http://localhost:3101/_next/static/chunks/0td_q_jvg2olo.js:1:20151)
+    at async P (http://localhost:3101/_next/static/chunks/0td_q_jvg2olo.js:2:39413) @ http://localhost:3101/_next/static/chunks/0td_q_jvg2olo.js:0

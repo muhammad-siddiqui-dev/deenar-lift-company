@@ -1,0 +1,272 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - link "03132477205" [ref=f1e7] [cursor=pointer]:
+          - /url: tel:03132477205
+        - link "msiddiqui78640@gmail.com" [ref=f1e10] [cursor=pointer]:
+          - /url: mailto:msiddiqui78640@gmail.com
+      - generic [ref=f1e14]: Karachi, Pakistan
+    - generic [ref=f1e18]:
+      - link "Deenar Lift Company — Home" [ref=f1e19] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e27]:
+          - generic [ref=f1e28]: Deenar Lift
+          - generic [ref=f1e29]: Company
+      - navigation "Primary" [ref=f1e30]:
+        - link "Home" [ref=f1e31] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=f1e32] [cursor=pointer]:
+          - /url: /about
+        - link "Products" [ref=f1e33] [cursor=pointer]:
+          - /url: /products
+        - link "Pricing" [ref=f1e34] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=f1e35] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f1e36] [cursor=pointer]:
+          - /url: /contact
+        - link "Get a Quote" [ref=f1e37] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f1e40]:
+    - generic [ref=f1e41]:
+      - generic [ref=f1e42]:
+        - generic [ref=f1e43]:
+          - generic [ref=f1e44]: Lift Manufacturer — Karachi, Pakistan
+          - heading "Vertical mobility, engineered in Pakistan." [level=1] [ref=f1e49]: Vertical mobility,engineered in Pakistan.
+          - paragraph [ref=f1e51]: Deenar Lift Company designs, manufactures, installs and maintains passenger lifts, home lifts, freight lifts and hospital lifts — built for reliability and priced in PKR.
+          - generic [ref=f1e53]:
+            - link "Estimate Your Lift Price" [ref=f1e54] [cursor=pointer]:
+              - /url: /pricing
+            - link "Book a Free Site Survey" [ref=f1e57] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f1e59]:
+            - generic [ref=f1e60]:
+              - generic [ref=f1e61]: Passenger
+              - generic [ref=f1e62]: /
+            - generic [ref=f1e63]:
+              - generic [ref=f1e64]: Home
+              - generic [ref=f1e65]: /
+            - generic [ref=f1e66]:
+              - generic [ref=f1e67]: Freight
+              - generic [ref=f1e68]: /
+            - generic [ref=f1e69]: Hospital
+        - generic [ref=f1e73]:
+          - img [aria-hidden] [ref=f1e75]:
+            - generic [ref=f1e95]: "1"
+            - generic [ref=f1e98]: "2"
+            - generic [ref=f1e101]: "3"
+            - generic [ref=f1e104]: "4"
+            - generic [ref=f1e107]: "5"
+          - generic [ref=f1e113]: Designed, built & installed in Karachi
+      - generic [ref=f1e116]:
+        - generic [ref=f1e118]:
+          - paragraph [ref=f1e119]: 3,000 kg
+          - paragraph [ref=f1e120]: Max freight capacity
+        - generic [ref=f1e122]:
+          - paragraph [ref=f1e123]: 2.0 m/s
+          - paragraph [ref=f1e124]: Max passenger speed
+        - generic [ref=f1e126]:
+          - paragraph [ref=f1e127]: "30"
+          - paragraph [ref=f1e128]: Max stops travelled
+        - generic [ref=f1e130]:
+          - paragraph [ref=f1e131]: Turnkey
+          - paragraph [ref=f1e132]: Supply · Install · Maintain
+    - generic [ref=f1e135]:
+      - generic [ref=f1e138]:
+        - paragraph [ref=f1e141]: What We Do
+        - heading "Complete elevator solutions, under one roof" [level=2] [ref=f1e142]
+        - paragraph [ref=f1e143]: From the first site survey to decades of maintenance, Deenar handles every stage of your lift's life cycle.
+      - generic [ref=f1e145]:
+        - generic [ref=f1e147]:
+          - generic [ref=f1e148]: "01"
+          - heading "Supply & Installation" [level=3] [ref=f1e149]
+          - paragraph [ref=f1e150]: End-to-end turnkey installation including shaft survey, civil works guidance, electrical integration and commissioning by our own certified engineers.
+        - generic [ref=f1e152]:
+          - generic [ref=f1e153]: "02"
+          - heading "Annual Maintenance Contracts" [level=3] [ref=f1e154]
+          - paragraph [ref=f1e155]: Preventive and corrective maintenance plans with scheduled inspections, priority breakdown response and genuine spare parts for years of trouble-free service.
+        - generic [ref=f1e157]:
+          - generic [ref=f1e158]: "03"
+          - heading "Modernization & Refurbishment" [level=3] [ref=f1e159]
+          - paragraph [ref=f1e160]: Upgrade ageing lifts with new VVVF drives, controllers, doors and cabins to boost performance, safety and energy efficiency at a fraction of replacement cost.
+        - generic [ref=f1e162]:
+          - generic [ref=f1e163]: "04"
+          - heading "Repair & Breakdown Service" [level=3] [ref=f1e164]
+          - paragraph [ref=f1e165]: Fast emergency call-out for Karachi and all of Sindh. Our technicians carry common spares on board to get your lift moving again quickly.
+    - generic [ref=f1e167]:
+      - generic [ref=f1e169]:
+        - paragraph [ref=f1e172]: Our Products
+        - heading "A lift for every building" [level=2] [ref=f1e173]
+        - paragraph [ref=f1e174]: Four product families, each one custom-engineered and manufactured for your site.
+      - generic [ref=f1e175]:
+        - link "Passenger Lifts 01 Passenger Lifts Smooth, fast and quiet movement for every building" [ref=f1e177] [cursor=pointer]:
+          - /url: /products
+          - generic [ref=f1e178]:
+            - img "Passenger Lifts" [ref=f1e180]
+            - generic [ref=f1e182]: "01"
+          - generic [ref=f1e186]:
+            - heading "Passenger Lifts" [level=3] [ref=f1e187]
+            - paragraph [ref=f1e188]: Smooth, fast and quiet movement for every building
+        - link "Home / Villa Lifts 02 Home / Villa Lifts Elegant mobility for your family and guests" [ref=f1e190] [cursor=pointer]:
+          - /url: /products
+          - generic [ref=f1e191]:
+            - img "Home / Villa Lifts" [ref=f1e193]
+            - generic [ref=f1e195]: "02"
+          - generic [ref=f1e199]:
+            - heading "Home / Villa Lifts" [level=3] [ref=f1e200]
+            - paragraph [ref=f1e201]: Elegant mobility for your family and guests
+        - link "Freight / Goods Lifts 03 Freight / Goods Lifts Heavy-duty lifting for industry and commerce" [ref=f1e203] [cursor=pointer]:
+          - /url: /products
+          - generic [ref=f1e204]:
+            - img "Freight / Goods Lifts" [ref=f1e206]
+            - generic [ref=f1e208]: "03"
+          - generic [ref=f1e212]:
+            - heading "Freight / Goods Lifts" [level=3] [ref=f1e213]
+            - paragraph [ref=f1e214]: Heavy-duty lifting for industry and commerce
+        - link "Hospital Lifts 04 Hospital Lifts Precision, comfort and care for medical facilities" [ref=f1e216] [cursor=pointer]:
+          - /url: /products
+          - generic [ref=f1e217]:
+            - img "Hospital Lifts" [ref=f1e219]
+            - generic [ref=f1e221]: "04"
+          - generic [ref=f1e225]:
+            - heading "Hospital Lifts" [level=3] [ref=f1e226]
+            - paragraph [ref=f1e227]: Precision, comfort and care for medical facilities
+      - link "View all products" [ref=f1e229] [cursor=pointer]:
+        - /url: /products
+    - generic [ref=f1e233]:
+      - generic [ref=f1e235]:
+        - img "Deenar engineering team at work" [ref=f1e238]
+        - generic [ref=f1e240]:
+          - paragraph [ref=f1e241]: In-house manufacturing
+          - paragraph [ref=f1e242]: Korangi Industrial Area, Karachi
+      - generic [ref=f1e243]:
+        - generic [ref=f1e245]:
+          - paragraph [ref=f1e248]: Why Deenar
+          - heading "A local manufacturer you can rely on" [level=2] [ref=f1e249]
+          - paragraph [ref=f1e250]: When you buy from Deenar, you're dealing directly with the people who build your lift — not a middleman. That means better quality control, real accountability and support for years to come.
+        - generic [ref=f1e251]:
+          - generic [ref=f1e252]:
+            - generic [ref=f1e253]: "01"
+            - generic [ref=f1e254]:
+              - heading "In-House Manufacturing" [level=3] [ref=f1e255]
+              - paragraph [ref=f1e256]: Lifts engineered and fabricated in our Karachi facility, giving us full control over quality, cost and delivery timelines.
+          - generic [ref=f1e257]:
+            - generic [ref=f1e258]: "02"
+            - generic [ref=f1e259]:
+              - heading "Safety-First Engineering" [level=3] [ref=f1e260]
+              - paragraph [ref=f1e261]: Every lift is built to international safety standards with genuine components and redundant safety systems.
+          - generic [ref=f1e262]:
+            - generic [ref=f1e263]: "03"
+            - generic [ref=f1e264]:
+              - heading "Nationwide Service" [level=3] [ref=f1e265]
+              - paragraph [ref=f1e266]: Our own technicians — not third-party contractors — keep your lifts running across Pakistan.
+          - generic [ref=f1e267]:
+            - generic [ref=f1e268]: "04"
+            - generic [ref=f1e269]:
+              - heading "Transparent PKR Pricing" [level=3] [ref=f1e270]
+              - paragraph [ref=f1e271]: Clear, itemized quotations in PKR with no hidden charges. Use our online calculator and get a firm quote within days.
+    - generic [ref=f1e273]:
+      - generic [ref=f1e275]:
+        - paragraph [ref=f1e278]: How We Work
+        - heading "From first call to final ride, in four steps" [level=2] [ref=f1e279]
+      - generic [ref=f1e280]:
+        - generic [ref=f1e282]:
+          - generic [ref=f1e283]: "01"
+          - heading "Free Site Survey" [level=3] [ref=f1e284]
+          - paragraph [ref=f1e285]: Our engineers visit your building, measure the shaft and understand your traffic, power and space requirements.
+        - generic [ref=f1e287]:
+          - generic [ref=f1e288]: "02"
+          - heading "Design & Proposal" [level=3] [ref=f1e289]
+          - paragraph [ref=f1e290]: You receive a tailored lift design with an itemized, all-inclusive quotation in PKR — no hidden costs.
+        - generic [ref=f1e292]:
+          - generic [ref=f1e293]: "03"
+          - heading "Manufacturing" [level=3] [ref=f1e294]
+          - paragraph [ref=f1e295]: Your lift is fabricated in-house with strict quality checks on every component before it leaves our factory.
+        - generic [ref=f1e297]:
+          - generic [ref=f1e298]: "04"
+          - heading "Installation & Handover" [level=3] [ref=f1e299]
+          - paragraph [ref=f1e300]: Certified technicians install, commission and load-test your lift, then train your team on operation and care.
+    - generic [ref=f1e305]:
+      - paragraph [ref=f1e306]: The Deenar Standard
+      - heading "“Lifts are infrastructure. They should be built like it.”" [level=2] [ref=f1e307]
+      - paragraph [ref=f1e308]: Every Deenar lift is engineered, fabricated and load-tested before commissioning — then serviced by our own team for the life of the building.
+    - generic [ref=f1e313]:
+      - heading "Ready to install your lift?" [level=2] [ref=f1e314]
+      - paragraph [ref=f1e315]: Get a free site survey and an itemized quotation in PKR — usually within 48 hours of your enquiry.
+      - generic [ref=f1e316]:
+        - link "Get a Free Quotation" [ref=f1e317] [cursor=pointer]:
+          - /url: /contact
+        - link "Call 03132477205" [ref=f1e318] [cursor=pointer]:
+          - /url: tel:03132477205
+  - contentinfo [ref=f1e319]:
+    - generic [ref=f1e320]:
+      - generic [ref=f1e321]:
+        - generic [ref=f1e329]:
+          - generic [ref=f1e330]: Deenar Lift
+          - generic [ref=f1e331]: Company
+        - paragraph [ref=f1e332]: Deenar Lift Company is a Karachi-based manufacturer of passenger lifts, home lifts, freight lifts and hospital lifts. We design, manufacture, install and maintain elevators built for Pakistan's buildings.
+        - generic [ref=f1e333]:
+          - link "Facebook" [ref=f1e334] [cursor=pointer]:
+            - /url: https://facebook.com/deenarlifts
+          - link "Instagram" [ref=f1e337] [cursor=pointer]:
+            - /url: https://instagram.com/deenarlifts
+          - link "LinkedIn" [ref=f1e340] [cursor=pointer]:
+            - /url: https://linkedin.com/company/deenarlifts
+      - generic [ref=f1e343]:
+        - heading "Explore" [level=3] [ref=f1e344]
+        - list [ref=f1e345]:
+          - listitem [ref=f1e346]:
+            - link "Home" [ref=f1e347] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f1e348]:
+            - link "About" [ref=f1e349] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f1e350]:
+            - link "Products" [ref=f1e351] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=f1e352]:
+            - link "Pricing" [ref=f1e353] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=f1e354]:
+            - link "Blog" [ref=f1e355] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f1e356]:
+            - link "Contact" [ref=f1e357] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f1e358]:
+        - heading "Products" [level=3] [ref=f1e359]
+        - list [ref=f1e360]:
+          - listitem [ref=f1e361]:
+            - link "Passenger Lifts" [ref=f1e362] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=f1e363]:
+            - link "Home / Villa Lifts" [ref=f1e364] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=f1e365]:
+            - link "Freight / Goods Lifts" [ref=f1e366] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=f1e367]:
+            - link "Hospital Lifts" [ref=f1e368] [cursor=pointer]:
+              - /url: /products
+      - generic [ref=f1e369]:
+        - heading "Contact" [level=3] [ref=f1e370]
+        - list [ref=f1e371]:
+          - listitem [ref=f1e372]:
+            - link "03132477205" [ref=f1e373] [cursor=pointer]:
+              - /url: tel:03132477205
+          - listitem [ref=f1e374]:
+            - link "msiddiqui78640@gmail.com" [ref=f1e375] [cursor=pointer]:
+              - /url: mailto:msiddiqui78640@gmail.com
+          - listitem [ref=f1e376]: Karachi, Pakistan
+          - listitem [ref=f1e377]: "Mon - Sat: 9:00 AM - 7:00 PM"
+        - link "Chat on WhatsApp" [ref=f1e378] [cursor=pointer]:
+          - /url: https://wa.me/923132477205?text=Assalam-o-Alaikum!%20I%20would%20like%20to%20enquire%20about%20lifts%20from%20Deenar%20Lift%20Company.
+    - generic [ref=f1e382]:
+      - paragraph [ref=f1e383]: © 2026 Deenar Lift Company. All rights reserved.
+      - paragraph [ref=f1e384]: Designed, manufactured & serviced in Karachi, Pakistan.
+  - link "Chat with us on WhatsApp" [ref=f1e385] [cursor=pointer]:
+    - /url: https://wa.me/923132477205?text=Assalam-o-Alaikum!%20I%20would%20like%20to%20enquire%20about%20lifts%20from%20Deenar%20Lift%20Company.
+  - alert [ref=f1e388]
